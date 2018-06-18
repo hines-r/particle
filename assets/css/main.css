@@ -4674,6 +4674,7 @@ sub, sup {
   }
   .images-right img {
     float: right
+    padding: inherit;
   }
   .images-left {
     float: left;
@@ -4681,6 +4682,7 @@ sub, sup {
   }
   .images-left img {
     float: left
+    padding: inherit;
   }
 }
 
