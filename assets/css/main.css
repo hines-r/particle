@@ -4673,16 +4673,16 @@ sub, sup {
     width: 48%
   }
   .images-right img {
-    float: right
-    padding: inherit;
+    float: right;
+    margin-bottom: 10px;
   }
   .images-left {
     float: left;
     width: 48%
   }
   .images-left img {
-    float: left
-    padding: inherit;
+    float: left;
+    margin-bottom: 10px;
   }
 }
 
