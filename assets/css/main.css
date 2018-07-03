@@ -4731,7 +4731,7 @@ sub, sup {
   display: inline-block;
 }
 
-#unity-logo {
+.unity-logo {
   width: 125px;
   height: 75px;
   background-image: url(../img/unity-logo.png);
@@ -4740,7 +4740,7 @@ sub, sup {
   background-size: contain;
 }
 
-#libgdx-logo {
+.libgdx-logo {
   width: 125px;
   height: 75px;
   background-image: url(../img/libgdx-logo.svg);
