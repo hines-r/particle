@@ -4,51 +4,63 @@
 
 <div class="user-projects">
   <div class="images-right">
-    <img alt="wood" src="{{ "/assets/img/wood-capture.png" | prepend: site.baseurl }}" />
+    <img alt="pixd" src="{{ "/assets/img/pixel-chaos-fight.gif" | prepend: site.baseurl }}" />
+    <img alt="pixd" src="{{ "/assets/img/pixel-chaos-unit.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
+    <h3> Pixel Chaos </h3>
+    <ul>
+      <li> C# </li>
+      <li> Unity® </li>
+    </ul>
+    <p>Pixel Chaos was made in the Unity game engine and is by far my favorite personal project because it was one of the most fun to make. It's a defend the castle style game featuring endless waves of enemies and real-world physics calculations. To play, the player must purchase units to place on a 3x3 grid that can attack enemies. There are 13 unique units with two distinct upgrade paths each. Pixel Chaos made me realize just how powerful mathematics and programming can be. It simulates gravitational force, and I needed to calculate several different projectile motion problems to make it all possible. For example, calculating the force required to fire a projectile at a moving target. Other problems included programming bounce on a simulated 3D plane and utilizing scaling algorithms to adjust and balance the infinite waves.</p>
+    <a class="project-link" href="https://github.com/hines-r/pixel-chaos" target="_blank">Check it out</a>
+  </div>
+</div>
+
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="wood" src="{{ "/assets/img/woodcutter-play.gif" | prepend: site.baseurl }}" style="width:375px;"/>
+  </div>
+  <div class="contents-right">
     <h3> Virtual Woodcutter </h3>
     <ul>
       <li> Java </li>
       <li> Android </li>
       <li> libGDX </li>
     </ul>
-    <p>Virtual Woodcutter is the second game I've ever made and my first hands-on experience designing something for Android. I've always thought idle games were an interesting concept. The only objective is to gather as many resources as humanly possible. In this case, wood and gold. I faced many challenges making it, but it was all worth it in the end because I managed to learn so much during its development. I learned about new and useful game design patterns like game states and object pooling. It also taught me why it's imperative to optimize code, especially for mobile applications because of the slower hardware. It was also a great project to practice UI design and implementation.</p>
+    <p>I've always thought incremental games were an interesting concept. There's typically no significant gameplay element besides the player performing a simple repetitive task. Doing so results in the player earning some form of currency and in the case of Virtual Woodcutter, it's wood and gold! To gather wood, the player can tap the screen to chop down procedurally generated virtual trees. Occasionally, a bird carrying a power-up will traverse the screen and if tapped, grants the player a wide array of powers including extra strength, auto chopping, and increased log gain. To earn gold, the player can expend logs at workshops. Gold can be used to purchase upgrades, more workshops, and workers that collect logs passively. I learned a lot from this project including new and useful design patterns like game states and object pooling. It taught me why its imperative to optimize code, especially on mobile because of the slower hardware. I put a lot of love into this project, and it was a pleasure to make!</p>
     <a class="project-link" href="https://github.com/hines-r/virtual-woodcutter" target="_blank">Check it out</a>
   </div>
 </div>
 
 <div class="user-projects">
-  <div class="images-left">
-    <img alt="defense" src="{{ "/assets/img/defense-capture0.png" | prepend: site.baseurl }}" />
-    <img alt="defense" src="{{ "/assets/img/defense-capture1.png" | prepend: site.baseurl }}" />
+  <div class="images-right">
+    <img alt="anineko" src="{{ "/assets/img/anineko0.png" | prepend: site.baseurl }}" />
+    <img alt="anineko" src="{{ "/assets/img/anineko1.png" | prepend: site.baseurl }}" />
   </div>
-  <div class="contents-right">
-    <h3> Defense Game </h3>
+  <div class="contents">
+    <h3> AniNeko </h3>
     <ul>
       <li> C# </li>
-      <li> Unity® </li>
+      <li> SQLite </li>
     </ul>
-    <p>This is the first game I've made using the Unity game engine and the C# programming language. It's a physics-based defend the castle type game with elements of a tower defense. This game taught me how useful singleton patterns are and forced me to challenge myself with difficult problems involving physics, linear algebra, algorithms, and vectors. It has also been one of the most enjoyable experiences for me solving these problems and implementing them into code. It made me realize just how powerful mathematics and programming can be.</p>
-    <a class="project-link" href="https://github.com/hines-r/defense-game" target="_blank">Check it out</a>
+    <p>AniNeko is an application meant to index and keep track of anime, TV series, or movies. It's a WPF application featuring an attractive material design built using the <a class="href" href="https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit" target="_blank">Material Design in XAML Toolkit</a>. It uses an embedded SQLite database to store records locally and allows users to add, edit, delete or search for entries as needed. Users also have access to tabs at the top of the screen to filter entries by their current watch status. Architecturally, it's built using an MVVM (Model-View-ViewModel) pattern to separate the logic from the GUI. I was inspired to make this program to solve a problem I once had. That being keeping track of the many shows I would end up watching. With this program, logging progress becomes easy and its a more purpose-built solution than writing it out in a text document like I once did.</p>
+    <a class="project-link" href="https://github.com/hines-r/AniNeko" target="_blank">Check it out</a>
   </div>
-</div>
-
-<div class="user-details">
-  <h1> Other Projects </h1>
 </div>
 
 <div class="user-projects">
-  <div class="images-right">
-    <img alt="database" src="{{ "/assets/img/street_view.png" | prepend: site.baseurl }}" />
-    <img alt="database" src="{{ "/assets/img/map_view.png" | prepend: site.baseurl }}" />
+  <div class="images-left">
+    <img alt="phd" src="{{ "/assets/img/street-view.png" | prepend: site.baseurl }}" />
+    <img alt="phd" src="{{ "/assets/img/map-view.png" | prepend: site.baseurl }}" />
   </div>
-  <div class="contents">
+  <div class="contents-right">
     <h3> Home Database Tool </h3>
     <ul>
       <li> Java </li>
       <li> SQL </li>
     </ul>
-    <p>This program was a group project I completed while still in university. Its purpose is to search, store and categorize homes or even locations by their current condition or state of being. It works by utilizing an SQL database to store entries by pressing the buttons on the right side of the GUI. The maps are generated using the Google Maps API, and the user can toggle between street view or map view via the right side toggle buttons. Depending on the view mode, there are also two sliders the user can control. When in street view mode, there is a field of view adjustment slider and an angle slider to adjust the viewing angle of the 360° camera at any given position. While in map mode, the user has access to a zoom slider to zoom in or out of the image. I was in charge of implementing the GUI and getting the API integrated into the program. It was a great project, and I learned a lot from it.</p>
+    <p>This program was a group project I completed while in university.  Its purpose is to search, store and categorize homes or even locations by their current condition or state of being. It works by utilizing an SQL database to store entries by pressing the buttons on the right side of the GUI. The maps are generated using the Google Maps API, and the user can toggle between street view or map view via the right side toggle buttons. Depending on the view mode, there are also two sliders the user can control. When in street view mode, there is a field of view adjustment slider and an angle slider. They allow the user to adjust the 360° camera at any given position. While in map mode, the user has access to a zoom slider to zoom in or out of the image. I was in charge of implementing the GUI and getting the API integrated into the program. It was a great project, and I learned a lot from it.</p>
   </div>
 </div>
